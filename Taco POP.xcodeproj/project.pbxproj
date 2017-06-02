@@ -12,6 +12,17 @@
 		E45CD0A21EE1F52E00D49D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45CD0A11EE1F52E00D49D6B /* Assets.xcassets */; };
 		E45CD0A51EE1F52E00D49D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45CD0A31EE1F52E00D49D6B /* LaunchScreen.storyboard */; };
 		E45CD0B31EE1F69000D49D6B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0B21EE1F69000D49D6B /* MainVC.swift */; };
+		E45CD0B51EE1FCE600D49D6B /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0B41EE1FCE600D49D6B /* DropShadow.swift */; };
+		E45CD0B71EE1FDBB00D49D6B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0B61EE1FDBB00D49D6B /* HeaderView.swift */; };
+		E45CD0B91EE1FF1700D49D6B /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0B81EE1FF1700D49D6B /* Taco.swift */; };
+		E45CD0BB1EE2023400D49D6B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0BA1EE2023400D49D6B /* DataService.swift */; };
+		E45CD0C01EE2056000D49D6B /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0BE1EE2056000D49D6B /* TacoCell.swift */; };
+		E45CD0C11EE2056000D49D6B /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45CD0BF1EE2056000D49D6B /* TacoCell.xib */; };
+		E45CD0C31EE20ACE00D49D6B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0C21EE20ACE00D49D6B /* ReusableView.swift */; };
+		E45CD0C51EE20B6400D49D6B /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0C41EE20B6400D49D6B /* NibLoadableView.swift */; };
+		E45CD0C71EE20C0600D49D6B /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0C61EE20C0600D49D6B /* UICollectionView+Ext.swift */; };
+		E45CD0C91EE2117900D49D6B /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0C81EE2117900D49D6B /* MutableCollection+Ext.swift */; };
+		E45CD0CB1EE2131F00D49D6B /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0CA1EE2131F00D49D6B /* Shakable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		E45CD0A41EE1F52E00D49D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45CD0A61EE1F52E00D49D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E45CD0B21EE1F69000D49D6B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E45CD0B41EE1FCE600D49D6B /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		E45CD0B61EE1FDBB00D49D6B /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E45CD0B81EE1FF1700D49D6B /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		E45CD0BA1EE2023400D49D6B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E45CD0BE1EE2056000D49D6B /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		E45CD0BF1EE2056000D49D6B /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		E45CD0C21EE20ACE00D49D6B /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		E45CD0C41EE20B6400D49D6B /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		E45CD0C61EE20C0600D49D6B /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		E45CD0C81EE2117900D49D6B /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		E45CD0CA1EE2131F00D49D6B /* Shakable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,9 @@
 			children = (
 				E45CD09E1EE1F52E00D49D6B /* Main.storyboard */,
 				E45CD0A31EE1F52E00D49D6B /* LaunchScreen.storyboard */,
+				E45CD0B61EE1FDBB00D49D6B /* HeaderView.swift */,
+				E45CD0BE1EE2056000D49D6B /* TacoCell.swift */,
+				E45CD0BF1EE2056000D49D6B /* TacoCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -85,6 +110,8 @@
 		E45CD0AE1EE1F60800D49D6B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E45CD0B81EE1FF1700D49D6B /* Taco.swift */,
+				E45CD0BA1EE2023400D49D6B /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -101,6 +128,10 @@
 		E45CD0B01EE1F61500D49D6B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				E45CD0B41EE1FCE600D49D6B /* DropShadow.swift */,
+				E45CD0C21EE20ACE00D49D6B /* ReusableView.swift */,
+				E45CD0C41EE20B6400D49D6B /* NibLoadableView.swift */,
+				E45CD0CA1EE2131F00D49D6B /* Shakable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -108,6 +139,8 @@
 		E45CD0B11EE1F62300D49D6B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E45CD0C61EE20C0600D49D6B /* UICollectionView+Ext.swift */,
+				E45CD0C81EE2117900D49D6B /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -171,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45CD0C11EE2056000D49D6B /* TacoCell.xib in Resources */,
 				E45CD0A51EE1F52E00D49D6B /* LaunchScreen.storyboard in Resources */,
 				E45CD0A21EE1F52E00D49D6B /* Assets.xcassets in Resources */,
 				E45CD0A01EE1F52E00D49D6B /* Main.storyboard in Resources */,
@@ -184,8 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45CD0CB1EE2131F00D49D6B /* Shakable.swift in Sources */,
+				E45CD0C01EE2056000D49D6B /* TacoCell.swift in Sources */,
+				E45CD0C91EE2117900D49D6B /* MutableCollection+Ext.swift in Sources */,
 				E45CD09B1EE1F52E00D49D6B /* AppDelegate.swift in Sources */,
+				E45CD0B51EE1FCE600D49D6B /* DropShadow.swift in Sources */,
+				E45CD0C51EE20B6400D49D6B /* NibLoadableView.swift in Sources */,
+				E45CD0C71EE20C0600D49D6B /* UICollectionView+Ext.swift in Sources */,
+				E45CD0C31EE20ACE00D49D6B /* ReusableView.swift in Sources */,
 				E45CD0B31EE1F69000D49D6B /* MainVC.swift in Sources */,
+				E45CD0BB1EE2023400D49D6B /* DataService.swift in Sources */,
+				E45CD0B91EE1FF1700D49D6B /* Taco.swift in Sources */,
+				E45CD0B71EE1FDBB00D49D6B /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
