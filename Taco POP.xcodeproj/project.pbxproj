@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E45CD09B1EE1F52E00D49D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD09A1EE1F52E00D49D6B /* AppDelegate.swift */; };
-		E45CD09D1EE1F52E00D49D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD09C1EE1F52E00D49D6B /* ViewController.swift */; };
 		E45CD0A01EE1F52E00D49D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45CD09E1EE1F52E00D49D6B /* Main.storyboard */; };
 		E45CD0A21EE1F52E00D49D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45CD0A11EE1F52E00D49D6B /* Assets.xcassets */; };
 		E45CD0A51EE1F52E00D49D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45CD0A31EE1F52E00D49D6B /* LaunchScreen.storyboard */; };
+		E45CD0B31EE1F69000D49D6B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CD0B21EE1F69000D49D6B /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E45CD0971EE1F52E00D49D6B /* Taco POP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taco POP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45CD09A1EE1F52E00D49D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E45CD09C1EE1F52E00D49D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E45CD09F1EE1F52E00D49D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E45CD0A11EE1F52E00D49D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45CD0A41EE1F52E00D49D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45CD0A61EE1F52E00D49D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45CD0B21EE1F69000D49D6B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,62 @@
 		E45CD0991EE1F52E00D49D6B /* Taco POP */ = {
 			isa = PBXGroup;
 			children = (
-				E45CD09A1EE1F52E00D49D6B /* AppDelegate.swift */,
-				E45CD09C1EE1F52E00D49D6B /* ViewController.swift */,
-				E45CD09E1EE1F52E00D49D6B /* Main.storyboard */,
-				E45CD0A11EE1F52E00D49D6B /* Assets.xcassets */,
-				E45CD0A31EE1F52E00D49D6B /* LaunchScreen.storyboard */,
-				E45CD0A61EE1F52E00D49D6B /* Info.plist */,
+				E45CD0B11EE1F62300D49D6B /* Extensions */,
+				E45CD0B01EE1F61500D49D6B /* Protocols */,
+				E45CD0AE1EE1F60800D49D6B /* Model */,
+				E45CD0AD1EE1F60400D49D6B /* View */,
+				E45CD0AC1EE1F5FD00D49D6B /* Controller */,
+				E45CD0AF1EE1F60C00D49D6B /* Resources */,
 			);
 			path = "Taco POP";
+			sourceTree = "<group>";
+		};
+		E45CD0AC1EE1F5FD00D49D6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E45CD09A1EE1F52E00D49D6B /* AppDelegate.swift */,
+				E45CD0B21EE1F69000D49D6B /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E45CD0AD1EE1F60400D49D6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E45CD09E1EE1F52E00D49D6B /* Main.storyboard */,
+				E45CD0A31EE1F52E00D49D6B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E45CD0AE1EE1F60800D49D6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E45CD0AF1EE1F60C00D49D6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E45CD0A11EE1F52E00D49D6B /* Assets.xcassets */,
+				E45CD0A61EE1F52E00D49D6B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E45CD0B01EE1F61500D49D6B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E45CD0B11EE1F62300D49D6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +144,6 @@
 				TargetAttributes = {
 					E45CD0961EE1F52E00D49D6B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = TMV2HTP4TE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45CD09D1EE1F52E00D49D6B /* ViewController.swift in Sources */,
 				E45CD09B1EE1F52E00D49D6B /* AppDelegate.swift in Sources */,
+				E45CD0B31EE1F69000D49D6B /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Taco POP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdelRahmanaref.Taco-POP";
@@ -274,7 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Taco POP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdelRahmanaref.Taco-POP";
